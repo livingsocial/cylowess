@@ -9,6 +9,7 @@ try:
 
     setup(
         name='cylowess',
+        version='1.0.0',
 #        cmdclass = {'build_ext' : build_ext}, # uncomment for development
         include_dirs = [np.get_include()],
         ext_modules = [Extension('cylowess', ['cylowess.c'])]
